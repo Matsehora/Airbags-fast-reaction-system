@@ -1,0 +1,87 @@
+Day_of_week
+7: 97140
+3: 138554
+5: 151287
+4: 143336
+6: 120201
+1: 124757
+2: 134726
+None: 0
+
+Hour_of_crash
+16.0: 78463
+9.0: 49134
+11.0: 51814
+10.0: 45726
+15.0: 77135
+13.0: 50467
+14.0: 56404
+17.0: 79761
+6.0: 25901
+12.0: 52787
+18.0: 55173
+21.0: 22489
+8.0: 70225
+20.0: 25294
+19.0: 33824
+22.0: 19108
+7.0: 42410
+23.0: 15365
+4.0: 7437
+2.0: 8051
+0.0: 12709
+5.0: 13258
+1.0: 9836
+3.0: 7230
+None: 0
+
+
+Midlock
+1: 869427
+0: 721427
+
+Intersection
+0: 869427
+1: 721427
+
+
+Road_wet
+0: 480897
+None: 0
+1: 84360
+
+Weather
+fine: 1172184
+unknown: 21540
+rain: 217776
+smoke_dust: 1355
+high_wind: 2864
+fog: 4289
+snow: 1633
+mist: 9255
+None: 0
+overcast: 5554
+other: 52
+
+
+Lighting
+daylight: 1000648
+darkness_not_lit: 254419
+darkness_lit: 103421
+dawn_dusk: 71450
+unknown: 4677
+other: 1887
+None: 0
+
+Traffic_controls
+none: 751527
+stop_sign: 57555
+traffic_lights: 138705
+giveway_sign: 171635
+railway_crossing: 709
+other: 200
+None: 0
+manual_control: 809
+school_crossing: 397
+pedestrian_crossing: 2270
+

@@ -1,0 +1,73 @@
+2025-03-04 15:40:28,837 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:40:29,958 - Logger1 - DEBUG - False
+2025-03-04 15:40:31,077 - Logger1 - ERROR - list index out of range, Error acupaid while trying to process path
+2025-03-04 15:41:08,230 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:41:09,241 - Logger1 - DEBUG - False
+2025-03-04 15:41:10,365 - Logger1 - ERROR - list index out of range, Error acupaid while trying to process path
+2025-03-04 15:41:26,530 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:41:27,640 - Logger1 - DEBUG - False
+2025-03-04 15:41:28,772 - Logger1 - ERROR - list index out of range, Error acupaid while trying to process path
+2025-03-04 15:42:42,461 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:42:43,565 - Logger1 - DEBUG - False
+2025-03-04 15:42:44,695 - Logger1 - ERROR - list index out of range, Error acupaid while trying to process path
+2025-03-04 15:43:16,059 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:43:17,220 - Logger1 - DEBUG - False
+2025-03-04 15:43:18,325 - Logger1 - ERROR - list index out of range, Error acupaid while trying to process path
+2025-03-04 15:43:53,699 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:43:54,800 - Logger1 - DEBUG - False
+2025-03-04 15:43:54,800 - Logger1 - ERROR - start
+2025-03-04 15:43:55,933 - Logger1 - ERROR - list index out of range, Error acupaid while trying to process path
+2025-03-04 15:44:25,821 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:44:26,909 - Logger1 - DEBUG - False
+2025-03-04 15:44:26,909 - Logger1 - ERROR - 0
+2025-03-04 15:44:28,033 - Logger1 - ERROR - list index out of range, Error acupaid while trying to process path
+2025-03-04 15:45:24,360 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:45:25,453 - Logger1 - DEBUG - False
+2025-03-04 15:45:25,458 - Logger1 - DEBUG - None
+2025-03-04 15:45:25,458 - Logger1 - ERROR - data was null
+2025-03-04 15:47:09,642 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:47:10,721 - Logger1 - DEBUG - False
+2025-03-04 15:47:10,726 - Logger1 - DEBUG - None
+2025-03-04 15:47:10,726 - Logger1 - ERROR - data was null
+2025-03-04 15:47:24,658 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:47:25,751 - Logger1 - DEBUG - False
+2025-03-04 15:47:26,893 - Logger1 - ERROR - list index out of range, Error acupaid while trying to process path
+2025-03-04 15:48:46,534 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:48:47,638 - Logger1 - DEBUG - False
+2025-03-04 15:48:48,728 - Logger1 - ERROR - list index out of range, Error acupaid while trying to process path
+2025-03-04 15:50:15,835 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:50:16,852 - Logger1 - DEBUG - False
+2025-03-04 15:50:17,927 - Logger1 - ERROR - list index out of range, Error acupaid while trying to process path
+2025-03-04 15:51:10,036 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:51:11,131 - Logger1 - DEBUG - False
+2025-03-04 15:51:12,164 - Logger1 - ERROR - list index out of range, Error acupaid while trying to process path
+2025-03-04 15:51:42,783 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:51:43,875 - Logger1 - DEBUG - False
+2025-03-04 15:51:44,917 - Logger1 - ERROR - list index out of range, Error acupaid while trying to process path
+2025-03-04 15:52:51,353 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:52:52,456 - Logger1 - DEBUG - False
+2025-03-04 15:52:53,478 - Logger1 - ERROR - list index out of range, Error acupaid while trying to process path
+2025-03-04 15:53:28,598 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:53:29,709 - Logger1 - DEBUG - False
+2025-03-04 15:53:30,877 - Logger1 - DEBUG - [['property_damage', 60, 'none', 'Right Angle', 4], ['minor_injury', '100 - 110 km/h', 'traffic_lights', 'Side Swipe', 6], ['serious_injury', 50, 'giveway_sign', 'Rear End', 5], ['fatality', '60 km/h', 'stop_sign', 'Hit Parked Vehicle', 1]]
+2025-03-04 15:53:30,877 - Logger1 - DEBUG - [['property_damage', 60, 'none', 'Right Angle', 4], ['minor_injury', '100 - 110 km/h', 'traffic_lights', 'Side Swipe', 6], ['serious_injury', 50, 'giveway_sign', 'Rear End', 5], ['fatality', '60 km/h', 'stop_sign', 'Hit Parked Vehicle', 1]]
+2025-03-04 15:53:30,877 - Logger1 - ERROR - 'function' object is not iterable, Error acupaid while trying to process path
+2025-03-04 15:54:05,373 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:54:06,511 - Logger1 - DEBUG - False
+2025-03-04 15:54:07,584 - Logger1 - DEBUG - [['property_damage', 60, 'none', 'Right Angle', 4], ['minor_injury', 50, 'traffic_lights', 'Side Swipe', 6], ['serious_injury', 80, 'giveway_sign', 'Rear End', 1], ['fatality', 110, 'stop_sign', 'Hit Parked Vehicle', 0]]
+2025-03-04 15:54:07,584 - Logger1 - DEBUG - [['property_damage', 60, 'none', 'Right Angle', 4], ['minor_injury', 50, 'traffic_lights', 'Side Swipe', 6], ['serious_injury', 80, 'giveway_sign', 'Rear End', 1], ['fatality', 110, 'stop_sign', 'Hit Parked Vehicle', 0]]
+2025-03-04 15:54:07,584 - Logger1 - ERROR - 'function' object is not iterable, Error acupaid while trying to process path
+2025-03-04 15:55:44,221 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:55:45,300 - Logger1 - DEBUG - False
+2025-03-04 15:55:46,299 - Logger1 - DEBUG - [['property_damage', 60, 'none', 'Right Angle', 4], ['minor_injury', 50, 'traffic_lights', 'Side Swipe', 6], ['serious_injury', 80, 'giveway_sign', 'Rear End', 1], ['fatality', 110, 'stop_sign', 'Hit Parked Vehicle', 0]]
+2025-03-04 15:55:46,299 - Logger1 - DEBUG - [['property_damage', 60, 'none', 'Right Angle', 4], ['minor_injury', 50, 'traffic_lights', 'Side Swipe', 6], ['serious_injury', 80, 'giveway_sign', 'Rear End', 1], ['fatality', 110, 'stop_sign', 'Hit Parked Vehicle', 0]]
+2025-03-04 15:55:46,299 - Logger1 - ERROR - 'function' object is not iterable, Error acupaid while trying to process path
+2025-03-04 15:57:08,368 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:57:09,443 - Logger1 - DEBUG - False
+2025-03-04 15:57:10,438 - Logger1 - DEBUG - [['property_damage', 60, 'none', 'Right Angle', 4], ['minor_injury', 50, 'traffic_lights', 'Side Swipe', 6], ['serious_injury', 80, 'giveway_sign', 'Rear End', 1], ['fatality', 110, 'stop_sign', 'Hit Parked Vehicle', 0]]
+2025-03-04 15:57:10,438 - Logger1 - DEBUG - [['property_damage', 60, 'none', 'Right Angle', 4], ['minor_injury', 50, 'traffic_lights', 'Side Swipe', 6], ['serious_injury', 80, 'giveway_sign', 'Rear End', 1], ['fatality', 110, 'stop_sign', 'Hit Parked Vehicle', 0]]
+2025-03-04 15:57:10,439 - Logger1 - ERROR - 'function' object is not iterable, Error acupaid while trying to process path
+2025-03-04 15:58:35,709 - Logger1 - DEBUG - This is a test log entry.
+2025-03-04 15:58:36,822 - Logger1 - DEBUG - False
+2025-03-04 15:58:37,860 - Logger1 - DEBUG - data are in if
+2025-03-04 15:58:37,861 - Logger1 - DEBUG - [21123, 2123, 446137, 446137]
