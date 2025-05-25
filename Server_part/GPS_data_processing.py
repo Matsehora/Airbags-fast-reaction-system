@@ -48,8 +48,6 @@ while True:
         error_counter += 1
         pointer += 1
 
-
-
     try:
         
         if pointer == 0:
@@ -60,7 +58,7 @@ while True:
                 logger1.debug("data are in if")
                 long_list = what_to_do_ret_long(st_from_db)
                 logger1.debug(long_list,long_list)
-                send_three_longs_to_cpp(long_list[0],long_list[1],long_list[2])
+                send_three_longs_to_cpp(long_list[0],long_list[1],long_list[2],long_list[3],long_list[4],long_list[5],long_list[6],long_list[7])
             else:
                 logger1.error(f"data was null")
                 send_three_longs_to_cpp(8,8,8)

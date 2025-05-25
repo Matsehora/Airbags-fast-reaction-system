@@ -66,7 +66,7 @@ def evaluate_what_to_do(slise_of_data:list):
 
 
 
-    data_3 = slise_of_data[3]
+    data_3 = slise_of_data[8]
     if data_3 in [None, "Other", "Other accident"]:
         return None
     

@@ -1,12 +1,11 @@
 import struct
 import time
 
-def send_three_longs_to_cpp(long1, long2, long3):
-    """Sends three long integers (8 bytes each) to a text file."""
-    with open("../Temp_shared_memory/3_long.txt", "wb") as file:
-        file.write(struct.pack("qqq", long1, long2, long3))  # Ensure 8-byte longs
-        print("qqq", long1, long2, long3)
-
+def send_eight_longs_to_cpp(long1, long2, long3, long4, long5, long6, long7, long8):
+    """Sends eight long integers (8 bytes each) to a text file."""
+    with open("../Temp_shared_memory/8_long.txt", "wb") as file:
+        file.write(struct.pack("qqqqqqqq", long1, long2, long3, long4, long5, long6, long7, long8))
+        print("qqqqqqqq", long1, long2, long3, long4, long5, long6, long7, long8)
 
 def receive_floats_from_cpp():
     """Receives two float values from a text file."""
