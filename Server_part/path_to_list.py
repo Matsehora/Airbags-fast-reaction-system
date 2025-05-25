@@ -101,7 +101,6 @@ def get_route_details_with_coords(start_point, end_point, ors_api_key):
     # Extract route geometry and steps
     geometry = route['features'][0]['geometry']['coordinates']
     steps = route['features'][0]['properties']['segments'][0]['steps']
-    print(steps)
 
     # Load OpenStreetMap graph for road data
     G = ox.graph_from_point(start_point[::-1], dist=2000, network_type='drive')  # Buffer around the start point
@@ -147,7 +146,7 @@ def get_route_details_with_coords(start_point, end_point, ors_api_key):
         elif type_in_steps in [7,8]:
             events.append("roundabout")
         elif type_in_steps == 9:
-            events.append("u-turn")
+            events.append(  )
 
         
         # Adjust the event coordinate 5m before the event
@@ -177,7 +176,7 @@ def get_route_details_with_coords(start_point, end_point, ors_api_key):
  
     return events, final_coords_list
 
-# Example usage
+"""# Example usage
 # uses long lat 
 start = (8.8078, 53.0758)  # Bremen city center
 end = ( 9.72970425846439,52.37549667131688)    # Oldenburg city center
@@ -188,4 +187,4 @@ api_key = os.getenv("openrouteservice_api_key")
 route_events, event_coords = get_route_details_with_coords(start, end, api_key)
 
 print("Route Events:", route_events)
-print("Event Coordinates:", event_coords)
+print("Event Coordinates:", event_coords)"""

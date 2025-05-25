@@ -65,8 +65,3 @@ def analyze_values(sorted_Severity_dict:list,sorted_Speed_limit_dict:list,sorted
     except Exception as e:
         logger_static_annalysis_sub_function.error(e)
         return None
-
-
-
-
-

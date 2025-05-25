@@ -126,6 +126,8 @@ def str_to_db_return_all_values(latitude, longitude,value:str=None):
         logging.debug("processing straight road")
         '''additional_values_for_call = additional_values_for_call.format(intr_value = 0,  mid_lock_value = 0)
         logging.debug(f"additional_values_for_call = {additional_values_for_call}")'''
+        ultimate_call_to_omnissiah += additional_values_for_call.format(intr_value = 0,  mid_lock_value = 0)
+        logging.debug(f"additional_values_for_call = {additional_values_for_call}")
         return call_to_db(Day_of_week_call,Hour_of_crash_call,lighting_condition_call,road_weat_condition_call,weather_condition_cal,'')
     
     elif "turn" in value:
@@ -145,6 +147,7 @@ def str_to_db_return_all_values(latitude, longitude,value:str=None):
         ultimate_call_to_omnissiah += additional_values_for_call.format(intr_value = 1,  mid_lock_value = 0)
         logging.debug(f"additional_values_for_call = {additional_values_for_call}")
         return call_to_db(Day_of_week_call,Hour_of_crash_call,lighting_condition_call,road_weat_condition_call,weather_condition_cal,additional_values_for_call)
+    
 
 
     
